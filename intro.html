@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&family=Phudu:wght@500&display=swap');
+
+        :root {
+            --pink: #F0BADC;
+            --red: #D13D3F;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 10em;
+            line-height: 0.8em;
+            padding-bottom: 12%;
+        }
+
+        h1::first-letter {
+            margin-left: -0.02em;
+        }
+
+        h2 {
+            font-size: 4em;
+            padding-bottom: 4%;
+        }
+
+        h3 {
+            font-size: 2em;
+            font-family: 'Archivo Narrow', sans-serif;
+            margin: 0;
+            color: var(--pink);
+        }
+
+        h1, h2 {
+            font-family: 'Phudu', cursive;
+            margin: 0;
+            color: var(--pink);
+        }
+
+        p, figcaption {
+            font-family: 'Archivo Narrow', sans-serif;
+            color: var(--red)
+        }
+
+        p {
+            font-size: 2.4em;
+            margin: 1.6% 0;
+        }
+
+        figcaption {
+            font-size: 1.6em;
+            margin-top: 0.4em;
+            font-style: italic;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .item1 {
+            width: 36%;
+            background-color: var(--red);
+        }
+
+        .item2 {
+            width: 64%;
+            background-color: var(--pink);
+        }
+
+        .item1, .item2 {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 2% 0 6.4%;
+        }
+
+        img {
+            margin-left: 1.4px;
+            width: 60%;
+            border: 0.8em solid var(--red) ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <div>
+                <h3>my name is</h3>
+                <h1>Megan</h1>
+                <h2>Major: CS</h2>
+                <h2>IP address: 130.64.64.66</h2>
+            </div>
+        </div>
+        <div class="item2">
+            <div>
+                <p>I grew up in Connecticut</p>
+                <p style="padding-right: 12%;">Something no one would expect about me is that I enjoy practicing typing</p>
+                <br>
+                <figure style="margin: 0">
+                    <img src="https://img.theculturetrip.com/1200x630/wp-content/uploads/2019/01/jgwrh5.jpg" alt="favorite place">
+                    <figcaption>My favorite place is China</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
