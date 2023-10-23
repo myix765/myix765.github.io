@@ -5,7 +5,7 @@
             "description": "Photo Editing Software",
             "size": "1260MB",
             "price": "$20.99/month",
-            "category": ["photography", "paid"]
+            "categories": ["photography", "paid"]
         },
 
         {
@@ -13,7 +13,7 @@
             "description": "Vector Graphics Editor",
             "size": "1760MB",
             "price": "$20.99/month",
-            "category": ["graphic design", "paid"]
+            "categories": ["graphic design", "paid"]
         },
 
         {
@@ -21,7 +21,7 @@
             "description": "Photo Editing Software",
             "size": "458.5MB",
             "price": "$9.99/month",
-            "category": ["photography", "paid"]
+            "categories": ["photography", "paid"]
         },
 
         {
@@ -29,7 +29,7 @@
             "description": "User Interface Design",
             "size": "96.5MB",
             "price": "Free",
-            "category": ["UI/UX", "free"]
+            "categories": ["UI/UX", "free"]
         },
 
         {
@@ -37,7 +37,7 @@
             "description": "Vector Graphics Editor",
             "size": "81.6MB",
             "price": "$Free",
-            "category": ["graphic design", "free"]
+            "categories": ["graphic design", "free"]
         },
 
         {
@@ -45,7 +45,7 @@
             "description": "Video Editing Software",
             "size": "2001MB",
             "price": "Free",
-            "category": ["videography", "free"]
+            "categories": ["videography", "free"]
         },
 
         {
@@ -53,7 +53,7 @@
             "description": "Photo Editing Web App",
             "size": "0MB",
             "price": "Free",
-            "category": ["photography", "free"]
+            "categories": ["photography", "free"]
         },
 
         {
@@ -61,7 +61,7 @@
             "description": "Motion Graphics Software",
             "size": "1330MB",
             "price": "$20.99/month",
-            "category": ["animation", "paid"]
+            "categories": ["animation", "paid"]
         },
 
         {
@@ -69,7 +69,7 @@
             "description": "Video Editing Software",
             "size": "1010MB",
             "price": "$20.99/month",
-            "category": ["videography", "paid"]
+            "categories": ["videography", "paid"]
         },
 
         {
@@ -77,7 +77,7 @@
             "description": "Code Editor",
             "size": "1000MB",
             "price": "Free",
-            "category": ["programming", "free"]
+            "categories": ["programming", "free"]
         },
 
         {
@@ -85,7 +85,7 @@
             "description": "Animation Software",
             "size": "1000MB",
             "price": "$20.99/month",
-            "category": ["animation", "paid"]
+            "categories": ["animation", "paid"]
         },
 
         {
@@ -93,7 +93,7 @@
             "description": "3D Computer Graphics Software",
             "size": "305.9MB",
             "price": "Free",
-            "category": ["3D modeling", "free"]
+            "categories": ["3D modeling", "free"]
         }
     ]
 }
