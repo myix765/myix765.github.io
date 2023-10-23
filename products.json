@@ -1,0 +1,99 @@
+{
+    "products": [
+        {
+            "name": "Adobe Photoshop",
+            "description": "Photo Editing Software",
+            "size": "1260MB",
+            "price": "$20.99/month",
+            "category": ["photography", "paid"]
+        },
+
+        {
+            "name": "Adobe Illustrator",
+            "description": "Vector Graphics Editor",
+            "size": "1760MB",
+            "price": "$20.99/month",
+            "category": ["graphic design", "paid"]
+        },
+
+        {
+            "name": "Adobe Lightroom",
+            "description": "Photo Editing Software",
+            "size": "458.5MB",
+            "price": "$9.99/month",
+            "category": ["photography", "paid"]
+        },
+
+        {
+            "name": "Figma",
+            "description": "User Interface Design",
+            "size": "96.5MB",
+            "price": "Free",
+            "category": ["UI/UX", "free"]
+        },
+
+        {
+            "name": "Inkscape",
+            "description": "Vector Graphics Editor",
+            "size": "81.6MB",
+            "price": "$Free",
+            "category": ["graphic design", "free"]
+        },
+
+        {
+            "name": "Davinci Resolve",
+            "description": "Video Editing Software",
+            "size": "2001MB",
+            "price": "Free",
+            "category": ["videography", "free"]
+        },
+
+        {
+            "name": "Pixlr",
+            "description": "Photo Editing Web App",
+            "size": "0MB",
+            "price": "Free",
+            "category": ["photography", "free"]
+        },
+
+        {
+            "name": "Adobe After Effects",
+            "description": "Motion Graphics Software",
+            "size": "1330MB",
+            "price": "$20.99/month",
+            "category": ["animation", "paid"]
+        },
+
+        {
+            "name": "Adobe Premiere Pro",
+            "description": "Video Editing Software",
+            "size": "1010MB",
+            "price": "$20.99/month",
+            "category": ["videography", "paid"]
+        },
+
+        {
+            "name": "Visual Studio Code",
+            "description": "Code Editor",
+            "size": "1000MB",
+            "price": "Free",
+            "category": ["programming", "free"]
+        },
+
+        {
+            "name": "Adobe Animate",
+            "description": "Animation Software",
+            "size": "1000MB",
+            "price": "$20.99/month",
+            "category": ["animation", "paid"]
+        },
+
+        {
+            "name": "Blender",
+            "description": "3D Computer Graphics Software",
+            "size": "305.9MB",
+            "price": "Free",
+            "category": ["3D modeling", "free"]
+        }
+    ]
+}
