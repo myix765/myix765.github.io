@@ -1,0 +1,96 @@
+.content {
+    margin-top: min(100px);
+    margin-top: 10%;
+}
+
+#teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slideshow {
+    margin: 4% 0 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56%;
+    /* min-width: 500px; */
+    column-gap: 4%;
+}
+
+.slides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-img {
+    width: 45vw;
+    min-width: 400px;
+}
+
+.team-name {
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.slideshow-btn {
+    padding: 1% 2%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 4.2rem;
+    color: white;
+    background-color: var(--gray-blue);
+    cursor: pointer;
+}
+
+@media (max-width: 1430px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .content {
+        margin-top: min(140px);
+        margin-top: 20%;
+    }
+    
+
+    .team-name {
+        font-size: 1.4rem;
+    }
+
+    #slideshow {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 0.2fr;
+        grid-template-areas: 
+            "img img"
+            "btn1 btn2";
+        column-gap: 0;
+        margin-bottom: 10%;
+    }
+
+    .slides {
+        grid-area: img;
+    }
+
+    .slideshow-btn {
+        padding: 0.2% 0;
+        width: 60%;
+        font-size: 2rem;
+        justify-self: center;
+        margin-top: 8%;
+    }
+
+    #btn1 {
+        grid-area: btn1;
+    }
+    
+    #btn2 {
+        grid-area: btn2;
+    }
+}
