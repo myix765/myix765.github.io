@@ -45,13 +45,6 @@
     cursor: pointer;
 }
 
-@media (max-width: 1430px) {
-    footer {
-        position: fixed;
-        bottom: 0;
-    }
-}
-
 @media (max-width: 960px) {
     .content {
         margin-top: min(140px);
