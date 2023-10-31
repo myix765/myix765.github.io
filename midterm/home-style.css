@@ -61,6 +61,10 @@ footer{
     border-radius: 20px;
 }
 
+.btext:hover {
+    background-color: var(--gray-blue);
+}
+
 /* features box on index */
 .services {
     display: flex;
